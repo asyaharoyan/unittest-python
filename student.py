@@ -1,4 +1,5 @@
 from datetime import date, timedelta
+import requests
 
 class Student:
     """
@@ -25,3 +26,5 @@ class Student:
 
     def alert_santa(self):
         self.naughty_list = True
+
+    
